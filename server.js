@@ -55,7 +55,5 @@ function ImageObject(img){
   this.photographer = img.user.name;
 }
 
-// what's up with this?
-
 // turns server on
 app.listen(PORT, console.log(`Listening on port ${PORT}`));
